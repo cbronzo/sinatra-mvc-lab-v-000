@@ -8,6 +8,7 @@ class PigLatinizer
       if "AEIOUaeiou".include?(word[0])
         results.push("#{word}way")
     end
+  end
     
   end 
   
