@@ -9,9 +9,9 @@ class PigLatinizer
       if "AEIOUaeiou".include?(word[0])
         results.push("#{word}way")
       else
-        n=0
+        n = 0
         while !"AEIOUaeios".include?(word[n])
-          n+=1
+          n += 1
         end
         
         results.push("#{word[n..-1]+word[0..n-1]}ay")
