@@ -1,5 +1,6 @@
 
 class PigLatinizer
+  attr_accessor :text
   
   def piglatinize(text)
     results = []
