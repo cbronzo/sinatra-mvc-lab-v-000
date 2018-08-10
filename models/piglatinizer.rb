@@ -2,8 +2,9 @@
 class PigLatinizer
   
   def piglatinize(text)
-    result = []
+    results = []
     split_text = text.split(" ")
+    
     
   end 
   
