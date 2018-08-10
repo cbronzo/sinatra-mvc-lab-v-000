@@ -10,7 +10,7 @@ class PigLatinizer
         results << "#{word}way"
       else
         n = 0
-        while !"AEIOUaeios".include?(word[n])
+        while !"AEIOUaeiou".include?(word[n])
           n += 1
         end
         
