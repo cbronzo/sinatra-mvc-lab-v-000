@@ -17,10 +17,8 @@ class PigLatinizer
       end
     end
     results.join(" ").strip
-    end
   end
-    
-  end 
+  
   
 end
   
