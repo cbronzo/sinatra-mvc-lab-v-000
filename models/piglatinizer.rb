@@ -15,7 +15,6 @@ class PigLatinizer
         
         results.push("#{word[n..-1]+word[0..n-1]}ay")
       end
-      
     end
     results.join(" ").strip
     end
