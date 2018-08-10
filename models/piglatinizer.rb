@@ -11,7 +11,7 @@ class PigLatinizer
         n=0
         while !"AEIOUaeios".include?(word[n])
           n+=1
-    end
+        end
         
         results.push("#{word[n..-1]+word[0..n-1]}ay")
       end
